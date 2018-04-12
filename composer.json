@@ -1,0 +1,8 @@
+{
+    "name": "mricherzagen/composer_subpackage_example",
+    "repositories": [
+    ],
+    "require": {
+        "php": ">5.0"
+    }
+}
