@@ -4,16 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "324e8477698c5e7dca1526707afd9686",
-    "packages": [],
+    "content-hash": "6311a0d1c9e96b339da9d5af2d881d40",
+    "packages": [
+        {
+            "name": "mricherzagen/composer_subpackage_example_subpackage",
+            "version": "dev-add_subpackage",
+            "dist": {
+                "type": "path",
+                "url": "./subpackage",
+                "reference": "bb2206332b22f7d053fb7f55f6eb435cc99268f0",
+                "shasum": null
+            },
+            "type": "library"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mricherzagen/composer_subpackage_example_subpackage": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">5.0"
+        "php": ">5.5"
     },
     "platform-dev": []
 }

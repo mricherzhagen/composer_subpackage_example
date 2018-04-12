@@ -1,8 +1,13 @@
 {
     "name": "mricherzagen/composer_subpackage_example",
     "repositories": [
+        {
+            "type": "path",
+            "url": "./subpackage"
+        }
     ],
     "require": {
-        "php": ">5.0"
+        "mricherzagen/composer_subpackage_example_subpackage": "*@dev",
+        "php": ">5.5"
     }
 }
